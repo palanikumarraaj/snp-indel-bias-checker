@@ -54,3 +54,7 @@ python3 indel_snp_bias_finder_alphaB1.py --help
 
 ![This is an alt text.](/snp_indel_bias_alpha/usage_images/indel_snp_bias_finder_alphaB1.png)
 
+## Environment
+
+- Python 3.12.3
+- Pysam 0.23.0
