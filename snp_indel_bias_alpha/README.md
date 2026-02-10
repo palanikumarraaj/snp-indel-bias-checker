@@ -36,6 +36,9 @@ python3 indel_snp_bias_finder_alphaA1.py --help
 ````
 - Generates a single output file for biased or potential false call regions
 - Takes user option `-o` for output file name
+
+![This is an alt text.](/usage_images/indel_snp_bias_finder_alphaA1.png)
+  
 #### AlphaB1
 > indel_snp_bias_finder_alphaB1.py
 - Generates two VCF output files as `_biased.vcf` and `_unbiased.vcf` from the given input file name
@@ -48,3 +51,6 @@ To know better about the options :
 ```
 python3 indel_snp_bias_finder_alphaB1.py --help
 ````
+
+![This is an alt text.](/usage_images/indel_snp_bias_finder_alphaB1.png)
+
