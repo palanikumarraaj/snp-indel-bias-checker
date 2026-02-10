@@ -58,3 +58,20 @@ python3 indel_snp_bias_finder_alphaB1.py --help
 
 - Python 3.12.3
 - Pysam 0.23.0
+
+
+## Examples
+
+> python3 indel_snp_bias_finder_alphaB1.py 1197478_raw.vcf -p 1197478_raw
+
+- The above comment can take input directly once mentioned and take the prefix to form 2 output files
+- If needed option `-w` to increase the window size to 40 or 50 can also be used along with `-m` for maximum counts to be checked.
+
+> python3 indel_snp_bias_finder_alphaA1.py 1197478_raw.vcf -o 1197478_false_calls.vcf
+
+- The alphaA1 need complete vcf output file name for output generation.
+
+
+## NOTE
+
+- Input should be VCF and the basic environment should be confirmed before usage.
